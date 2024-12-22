@@ -1,4 +1,4 @@
-# A demonstrating program that try to brute force from ETH private key to ETH address matching
+# Brute-forcing an Ethereum private key to find a matching Ethereum address
 
 Brute-forcing an Ethereum private key to find a matching Ethereum address is a highly inefficient and impractical approach due to the sheer size of the search space and the cryptographic strength of the Ethereum system. Ethereum private keys are 256-bit numbers, which results in a search space of 2^256 possible private keys. This makes brute-forcing infeasible with current technology.
 
@@ -67,9 +67,9 @@ Terminating child process 26479
 Terminating child process 26480
 Terminating child process 26481
 
-Of course, the following matching results is fake (loool).
-If you are lucky to get one, you are most lucky guy in this real world.
-=======================================================================
+Of course, the following matching results are fake (loool).
+If you are lucky to get one, you are the luckiest guy in this real world.
+=========================================================================
 ~/Downloads/eth_brute_force(main)$ ls -l result_*.txt
 -rw-rw-r-- 1 grady grady 38556 十二 22 18:23 result_0.txt
 -rw-rw-r-- 1 grady grady 33684 十二 22 18:23 result_1.txt
