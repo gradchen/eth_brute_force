@@ -97,7 +97,7 @@ int brute_force_try_one(int show, int process_idx) {
         address[5], address[6], address[7], address[8], address[9],
         address[10], address[11], address[12], address[13], address[14],
         address[15], address[16], address[17], address[18], address[19]);
-#define ETH_TEST_OUTPUT_FILE 1
+//#define ETH_TEST_OUTPUT_FILE 1
 #if ETH_TEST_OUTPUT_FILE
     snprintf(str_address, sizeof(str_address), "%s", "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2");
 #endif
